@@ -1,6 +1,6 @@
 async function readAndDraw(){
   const budget = await d3.csv('BudgetBreakdown.csv');
-  const country = 'Japan'
+  const country = 'Pakistan'
 
   // budget for a country and all 18 economies
   const ctryBudget = budget.filter(d => d.Economy == country);
